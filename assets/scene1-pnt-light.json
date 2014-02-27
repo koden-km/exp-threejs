@@ -1,0 +1,209 @@
+{
+	"metadata": {
+		"version": 4.3,
+		"type": "Object",
+		"generator": "ObjectExporter"
+	},
+	"geometries": [
+		{
+			"uuid": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+			"type": "BoxGeometry",
+			"width": 10,
+			"height": 0.2,
+			"depth": 10,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "9745EAAF-8604-4496-B67E-83E1C993330F",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "823D4828-953E-4635-B29A-6579B8DFDECE",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "48D805BF-725D-4D48-AD02-6539020508AF",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+			"type": "MeshPhongMaterial",
+			"color": 3817874,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 9539985,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+			"type": "MeshPhongMaterial",
+			"color": 15985919,
+			"ambient": 16777215,
+			"emissive": 16777215,
+			"specular": 16777215,
+			"shininess": 30,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+			"type": "MeshPhongMaterial",
+			"color": 7960723,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 5329233,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		}],
+	"object": {
+		"uuid": "B9F75070-F6EF-4DD2-AB44-552707F3F663",
+		"type": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "394000E0-9960-4C04-BA06-69E42334A8B1",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"children": [
+					{
+						"uuid": "A92FF571-8F25-4278-A1A0-0FE4672401C8",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "6BB65392-269D-4D52-9585-9F29E67B0D56",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "9F3D1AC2-38C1-4208-8EAE-2B2814E79517",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "748FC2B5-CD38-4DC3-8A7E-F2B3CB7BCD22",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "F4BFD6C6-1F14-4A43-8447-6385B242D838",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "66C324BA-48B2-4FA1-89A2-48C803482C65",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "7633E000-4B28-43EE-A51A-D3EBA5AF05F1",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "164FBB9F-B2E2-4C1F-9C7D-AD6BA500AF87",
+						"name": "street.side.pointlight",
+						"type": "PointLight",
+						"color": 16777215,
+						"intensity": 5,
+						"distance": 4,
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,1,0,1]
+					},
+					{
+						"uuid": "617529B3-FB47-4914-B63F-589A04E3E044",
+						"name": "street.side.pointlight",
+						"type": "PointLight",
+						"color": 16777215,
+						"intensity": 5,
+						"distance": 4,
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,1,0,1]
+					}]
+			},
+			{
+				"uuid": "4AB593EB-9057-4AA1-A2B5-445D187E55B4",
+				"name": "AmbientLight",
+				"type": "AmbientLight",
+				"color": 1383463,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+			}]
+	}
+}

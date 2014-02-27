@@ -1,0 +1,494 @@
+{
+	"metadata": {
+		"version": 4.3,
+		"type": "Object",
+		"generator": "ObjectExporter"
+	},
+	"geometries": [
+		{
+			"uuid": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+			"type": "BoxGeometry",
+			"width": 10,
+			"height": 0.2,
+			"depth": 10,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "9745EAAF-8604-4496-B67E-83E1C993330F",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "823D4828-953E-4635-B29A-6579B8DFDECE",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "48D805BF-725D-4D48-AD02-6539020508AF",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+			"type": "BoxGeometry",
+			"width": 0.2,
+			"height": 0.4,
+			"depth": 3.33,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "1F693657-5EC6-4BEB-AC15-55FB7F247076",
+			"type": "MeshPhongMaterial",
+			"color": 3817874,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 9539985,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+			"type": "MeshPhongMaterial",
+			"color": 15985919,
+			"ambient": 16777215,
+			"emissive": 16777215,
+			"specular": 16777215,
+			"shininess": 30,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "0DD61FB4-E338-4A14-B17E-2ACAE23B287F",
+			"type": "MeshPhongMaterial",
+			"color": 7960723,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 5789784,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+			"type": "MeshPhongMaterial",
+			"color": 7960723,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 5329233,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+			"type": "MeshPhongMaterial",
+			"color": 3817874,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 9539985,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		},
+		{
+			"uuid": "4BDFF62F-7140-465C-8A05-142B34C7919C",
+			"type": "MeshPhongMaterial",
+			"color": 3817874,
+			"ambient": 16777215,
+			"emissive": 0,
+			"specular": 9539985,
+			"shininess": 15,
+			"opacity": 1,
+			"transparent": false,
+			"wireframe": false
+		}],
+	"object": {
+		"uuid": "B9F75070-F6EF-4DD2-AB44-552707F3F663",
+		"type": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "394000E0-9960-4C04-BA06-69E42334A8B1",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"children": [
+					{
+						"uuid": "A92FF571-8F25-4278-A1A0-0FE4672401C8",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "1F693657-5EC6-4BEB-AC15-55FB7F247076",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "6BB65392-269D-4D52-9585-9F29E67B0D56",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "9F3D1AC2-38C1-4208-8EAE-2B2814E79517",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "0DD61FB4-E338-4A14-B17E-2ACAE23B287F",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "748FC2B5-CD38-4DC3-8A7E-F2B3CB7BCD22",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "F4BFD6C6-1F14-4A43-8447-6385B242D838",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "66C324BA-48B2-4FA1-89A2-48C803482C65",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "7633E000-4B28-43EE-A51A-D3EBA5AF05F1",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					}]
+			},
+			{
+				"uuid": "4AB593EB-9057-4AA1-A2B5-445D187E55B4",
+				"name": "AmbientLight",
+				"visible": false,
+				"type": "AmbientLight",
+				"color": 1383463,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+			},
+			{
+				"uuid": "4CF3A388-9737-461D-B6E1-6F493A64814D",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,10,1],
+				"children": [
+					{
+						"uuid": "8996DEA2-E5B6-420F-B2FE-BF524C2B98A8",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "6F0BF482-FDBE-44E7-9F0C-D3BA41B8F655",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "07BCBC4C-9E18-4568-8E87-81E3F827AE55",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "20BE7374-D36E-406C-898F-18BC7141F95A",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "F7AB1792-6CF7-406B-846B-23F24B3C8723",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "E04A3C8D-6DD3-4CA0-828C-D7D4A3FD604B",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "A96D82AB-534C-4DB9-95AE-BA5F4D0F18A6",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					}]
+			},
+			{
+				"uuid": "D88665FA-B793-461C-B0B8-E380D185F3D0",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,20,1],
+				"children": [
+					{
+						"uuid": "2CF57D53-9829-4BD6-A938-FB454627BC92",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "33E3EFE2-F188-466F-A70E-B2166C7221E2",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "D370E54A-5414-4F33-8A8A-30159D6D50A1",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "8EABCE0E-645C-4BED-83C3-5D5F37CBD683",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "35E8DB1E-9888-487E-B9E6-45987CF28A9C",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "4FA7A016-9430-406B-8273-0A0806662589",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "8C5EC355-13F6-4BDF-A299-507D5A96900F",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					}]
+			},
+			{
+				"uuid": "0E819CF4-B234-40DD-A6A1-1E18BC4BA836",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,30,1],
+				"children": [
+					{
+						"uuid": "0697128C-FF5F-4748-89BD-725DD84B7A71",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "662DDAB9-04BE-4396-A95D-193EB9E0D96F",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "D5B4E557-5943-4D14-9229-D059BF1690D6",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "97528F6E-D704-47C9-8CED-C2DD596CF8D0",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "60A9EA8C-F486-4C6D-84FA-13C29057696A",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "E3922A16-A94F-42FE-A1D1-04080A268999",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "68740917-43E8-400B-BE68-143101F4D801",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "03CC96CD-B715-45D1-927D-026ABA23B995",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					}]
+			},
+			{
+				"uuid": "074125C7-074E-4D36-9198-6C0714CF7760",
+				"name": "street.node",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,40,1],
+				"children": [
+					{
+						"uuid": "8F21B741-98A7-42A4-8788-34D6528B2FE3",
+						"name": "street.road",
+						"type": "Mesh",
+						"geometry": "39831079-A4C5-4C57-95CB-6DEEE2EFB801",
+						"material": "4BDFF62F-7140-465C-8A05-142B34C7919C",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.10000000149011612,0,1]
+					},
+					{
+						"uuid": "BFEF7D7D-6E21-4D35-9A78-2690276A29AF",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "5B97BBF6-FCF9-4648-B4BC-B61C8DF2FAA4",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,0,1]
+					},
+					{
+						"uuid": "2188A439-E90C-41B9-A20B-FE6B5D7EE8FA",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "9745EAAF-8604-4496-B67E-83E1C993330F",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "66AC105D-CC0C-4E7D-81E6-7DA05F3B4239",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "823D4828-953E-4635-B29A-6579B8DFDECE",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "F87F3FF4-490D-4BE9-A56F-C9C50854CDB5",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "48D805BF-725D-4D48-AD02-6539020508AF",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,3.3299999237060547,1]
+					},
+					{
+						"uuid": "99BAFA9B-5236-403B-B815-AC52239BF9B6",
+						"name": "street.side.default",
+						"type": "Mesh",
+						"geometry": "AD39925F-D6CC-4E1B-9736-F1738C50952D",
+						"material": "DE8ACB98-DE00-4B6E-88DA-1A55E70C0530",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,-3.3299999237060547,1]
+					},
+					{
+						"uuid": "DD4AB56C-C1E9-4881-83EE-B918334AE4A5",
+						"name": "street.side.bright",
+						"type": "Mesh",
+						"geometry": "585C9ED4-809D-457B-95CF-EE0F761EC1FC",
+						"material": "31B79CB1-78F5-4525-B023-BDFA8603EC63",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5.099999904632568,0.20000000298023224,0,1]
+					}]
+			},
+			{
+				"uuid": "847D14FF-6AC4-4064-AFBE-37182F64DE6E",
+				"name": "DirectionalLight",
+				"type": "DirectionalLight",
+				"color": 4809361,
+				"intensity": 1,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,200,200,200,1]
+			},
+			{
+				"uuid": "A1067FD5-F6D8-4BCB-BFE6-5435E9C0AC00",
+				"name": "DirectionalLight 4 Target",
+				"type": "Object3D",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+			}]
+	}
+}
